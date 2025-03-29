@@ -1,0 +1,20 @@
+version: 1
+
+sources:
+  - name: samssubs_landing
+    database: kayliclegg
+    schema: samssubs_source
+    tables:
+      - name: web_traffic_events
+
+  - name: samssubs_landing2
+    database: kayliclegg
+    schema: samssubs_source_sams_subs
+    tables:
+      - name: customer
+      - name: employee
+      - name: '"ORDER"'
+      - name: orderdetails
+      - name: product
+      - name: sandwich
+      - name: store
